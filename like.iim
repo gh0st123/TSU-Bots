@@ -1,0 +1,25 @@
+﻿VERSION BUILD=8871104 RECORDER=FX
+SET !ERRORIGNORE YES
+TAB T=1
+URL GOTO=https://www.tsu.co/hashtag/tsu?page=1
+wait seconds=4
+TAG POS=1 TYPE=A ATTR=TXT:Like
+wait seconds=15
+URL GOTO=https://www.tsu.co/hashtag/tsu?page=1
+wait seconds=4
+TAG POS=1 TYPE=A ATTR=TXT:Like
+wait seconds=12
+URL GOTO=https://www.tsu.co/hashtag/tsu?page=1
+wait seconds=4
+TAG POS=1 TYPE=A ATTR=TXT:Like
+wait seconds=17
+URL GOTO=https://www.tsu.co/hashtag/tsu?page=1
+wait seconds=4
+TAG POS=1 TYPE=A ATTR=TXT:Like
+wait seconds=16
+URL GOTO=https://www.tsu.co/hashtag/tsu?page=1
+wait seconds=4
+TAG POS=1 TYPE=A ATTR=TXT:Like
+wait seconds=18
+URL GOTO=https://www.tsu.co/
+wait seconds=10
